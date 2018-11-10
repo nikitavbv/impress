@@ -1,0 +1,5 @@
+{
+  url: { domain: 'Literal', required: true },
+  rewrite: { domain: 'Literal', required: true },
+  escaping: { domain: 'Logical', required: true, default: 'true' }
+}

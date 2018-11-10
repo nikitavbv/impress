@@ -1,0 +1,8 @@
+{
+  minify: { domain: 'Logical', required: true },
+  cacheSize: { domain: 'DataSize', required: true },
+  cacheMaxFileSize: { domain: 'DataSize', required: true },
+  gzip: { domain: 'Logical', required: true },
+  preprocess: { domain: 'StringsArray' },
+  index: { domain: 'Logical', required: true }
+}

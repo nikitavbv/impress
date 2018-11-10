@@ -1,0 +1,6 @@
+{
+  global: { domain: 'StringsArray' },
+  api: { domain: 'StringsArray' },
+  export: { domain: 'StringsArray' },
+  import: { domain: 'Hash' }
+}

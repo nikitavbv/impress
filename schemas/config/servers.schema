@@ -1,0 +1,10 @@
+{
+  master: Include('server'),
+  www: Include('server'),
+  rpc: Include('server'),
+  secureRpc: Include('server'),
+  webRpc: Include('server'),
+  local: Include('server'),
+  ssl: Include('server'),
+  static: Include('server'),
+}

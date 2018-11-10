@@ -1,0 +1,4 @@
+{
+  service: { domain: 'Service', required: true },
+  auth: Include('mailAuth')
+}

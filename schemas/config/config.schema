@@ -1,0 +1,10 @@
+{
+  databases: Many('database'),
+  files: Include('files'),
+  log: Include('log'),
+  hosts: { domain: 'StringsArray', required: true },
+  mail: Include('mail'),
+  routes: Many('route'),
+  sessions: Include('sessions'),
+  sandbox: Include('sandbox')
+}

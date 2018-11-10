@@ -1,0 +1,4 @@
+{
+  host: { domain: 'IP', required: true },
+  port: { domain: 'Port', required: true }
+}

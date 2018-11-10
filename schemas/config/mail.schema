@@ -1,0 +1,5 @@
+{
+  enabled: { domain: 'Logical', required: true },
+  robot: { domain: 'Nomen', required: true },
+  options: Include('mailOptions')
+}

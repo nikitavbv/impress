@@ -1,0 +1,12 @@
+{
+  anonymous: { domain: 'Logical', required: true },
+  cookie: { domain: 'Nomen', required: true },
+  characters: { domain: 'Characters', required: true },
+  secret: { domain: 'Secret', required: true },
+  length: { domain: 'Count', required: true },
+  persist: { domain: 'Logical', required: true },
+  confirmTime: { domain: 'Duration', required: true },
+  expireTime: { domain: 'Duration', required: true },
+  perIpLimit: { domain: 'Count', required: true },
+  perUserLimit: { domain: 'Count', required: true }
+}

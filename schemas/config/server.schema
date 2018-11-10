@@ -1,0 +1,16 @@
+{
+  protocol: { domain: 'Protocol', required: true },
+  transport: { domain: 'Transport', required: true },
+  address: { domain: 'Host', required: true },
+  ports: { domain: 'NumberArray', required: true },
+  bundle: { domain: 'Logical', required: true },
+  nagle: { domain: 'Logical', required: true },
+  slowTime: { domain: 'Duration', required: true },
+  timeout: { domain: 'Duration', required: true },
+  keepAlive: { domain: 'Duration', required: true },
+  heartbeatInterval: { domain: 'Duration' },
+  key: { domain: 'SHA2' },
+  cert: { domain: 'SHA2' },
+  applications: { domain: 'StringsArray' },
+  inspect: { domain: 'Count' }
+}

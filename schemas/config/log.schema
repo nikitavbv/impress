@@ -1,0 +1,8 @@
+{
+  enabled: { domain: 'Logical', required: true },
+  keepDays: { domain: 'Days', required: true },
+  writeInterval: { domain: 'Duration', required: true },
+  writeBuffer: { domain: 'Count', required: true },
+  file: { domain: 'StringsArray' },
+  stdout: { domain: 'StringsArray' }
+}

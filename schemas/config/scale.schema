@@ -1,0 +1,20 @@
+{
+  check: { domain: 'URL' },
+
+  cloud: { domain: 'Nomen', required: true },
+  server: { domain: 'Nomen', required: true },
+  controller: Include('controller'),
+  instance: { domain: 'Instance', required: true },
+
+  key: { domain: 'SHA512' },
+  cookie: { domain: 'Nomen', required: true },
+
+  health: { domain: 'Duration', required: true },
+  nagle: { domain: 'Logical', required: true },
+  gc: { domain: 'Duration', required: true },
+  watch: { domain: 'Duration', required: true },
+  firewall: Include('firewall'),
+
+  characters: { domain: 'Characters', required: true },
+  length: { domain: 'Count', required: true }
+}

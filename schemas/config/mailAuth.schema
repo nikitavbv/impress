@@ -1,0 +1,4 @@
+{
+  user: { domain: 'Login', required: true },
+  pass: { domain: 'Password', required: true }
+}

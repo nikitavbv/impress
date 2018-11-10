@@ -1,0 +1,8 @@
+{
+  ip: { domain: 'Count', required: true },
+  sid: { domain: 'Count', required: true },
+  host: { domain: 'Count', required: true },
+  url: { domain: 'Count', required: true },
+  app: { domain: 'Count', required: true },
+  srv: { domain: 'Count', required: true }
+}

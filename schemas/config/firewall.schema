@@ -1,0 +1,4 @@
+{
+  enabled: { domain: 'Logical', required: true },
+  limits: Include('limits')
+}

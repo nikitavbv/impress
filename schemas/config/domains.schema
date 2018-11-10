@@ -1,0 +1,9 @@
+{
+  Hash: { type: 'object', class: 'Object' },
+  NumberArray: { type: 'object', class: 'Array' },
+  StringsArray: { type: 'object', class: 'Array' },
+  SHA512: { type: 'string', length: 64 },
+  Instance: Enum('standalone', 'controller', 'server'),
+  Protocol: Enum('http', 'jstp'),
+  Transport: Enum('tls', 'tcp', 'ws', 'wss')
+}

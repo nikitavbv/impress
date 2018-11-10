@@ -1,0 +1,6 @@
+{
+  slowTime: { domain: 'Duration', required: true },
+  preload: { domain: 'Logical', required: true },
+  allowOrigin: { domain: 'Literal' },
+  rpsPerIP: { domain: 'Ratio' }
+}

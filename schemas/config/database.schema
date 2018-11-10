@@ -1,0 +1,9 @@
+{
+  alias: { domain: 'Nomen' },
+  url: { domain: 'URL', required: true },
+  collections: { domain: 'StringsArray' },
+  slowTime: { domain: 'Duration', required: true },
+  security: { domain: 'Logical', required: true },
+  poolMax: { domain: 'Count' }
+}
+
