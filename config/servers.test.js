@@ -33,6 +33,14 @@
     ports:     [5000],
     nagle:     true,
     slowTime:  Duration('1s'),
-  }
+  },
+
+  test: {
+    protocol:  'jstp',
+    transport: 'tcp',
+    address:   '127.0.0.1',
+    ports:     [3001],
+    slowTime:  Duration('1s'),
+  },
 
 }
